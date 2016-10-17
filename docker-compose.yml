@@ -3,7 +3,7 @@ services:
   flaskapp:
     build: .
     ports:
-      - "47474:5000"
+      - "42424:5000"
     environment:
       - MODE=dev
     volumes:

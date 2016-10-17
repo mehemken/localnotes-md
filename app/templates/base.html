@@ -1,0 +1,21 @@
+<html>
+    <head>
+	<title>The Boolean Array</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+	<div class='wrap'>
+	    <div class="nav">
+		<span style="font-style: italic">The Boolean Array</span>
+		by Marco E. Hemken |
+		<a href="{{ url_for('posts') }}">Articles</a> |
+		<a href="{{ url_for('resume') }}">Resume</a> |
+		<a href="{{ url_for('about') }}">About</a> |
+		<a href="{{ url_for('tools') }}">Tools</a>
+	    </div>
+	{% block body %}
+	{% endblock %}
+	</div>
+    <p class='foot-note'>Powered by Python and Flask</p>
+    </body>
+</html>

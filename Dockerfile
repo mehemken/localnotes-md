@@ -1,6 +1,6 @@
 # Basic flask container
 
-FROM flask-vol-base:1
+FROM blog-base:1
 
 ADD /app /home/app
 WORKDIR /home/app

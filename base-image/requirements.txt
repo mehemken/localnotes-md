@@ -1,3 +1,9 @@
 flask
+flask-flatpages
+frozen-flask
 requests
 gunicorn
+markdown
+markupsafe
+pyyaml
+pygments
