@@ -1,11 +1,13 @@
-# Basic flask container
-
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
+
+
+stuff = ['one','two','three','four','five','six']
+
 
 @app.route('/')
 def home():
-    return 'hello planet, and jupiter'
+    return render_template('home.html', stuff=stuff)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0', port=5000)

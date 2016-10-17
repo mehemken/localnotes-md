@@ -1,0 +1,17 @@
+<html>
+    <head>
+	<title>foe fum</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='static.css') }}">
+    </head>
+    <body>
+	<div class='wrap'>
+	    <h1>The Title</h1>
+	    {% for i in stuff %}
+		<div>
+		    <h2>bar bar bar</h2>
+		    <p>{{ i }}</p>
+		</div>
+	    {% endfor %}
+	</div>
+    </body>
+</html>

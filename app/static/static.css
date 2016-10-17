@@ -1,0 +1,10 @@
+body {
+    background-color: #f4f4f4 ;
+}
+
+div.wrap {
+    background-color: #fff ;
+    width: 400px ;
+    height: 100% ;
+    padding: 20px ;
+} 

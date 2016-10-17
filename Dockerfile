@@ -1,10 +1,12 @@
 # Basic flask container
 
-FROM fanoftal2/alpine-flask-base:1
+FROM flask-vol-base:1
 
-ADD /app/ /home/app/
-WORKDIR /home/app/
+ADD /app /home/app
+WORKDIR /home/app
+
+VOLUME ./app /home/app
 
 EXPOSE 5000
 
-ENTRYPOINT ["python3", "app.py"]
+CMD ["gunicorn", "--config=gunicorn.py", "app:app"]
