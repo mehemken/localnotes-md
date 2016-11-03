@@ -1,4 +1,4 @@
-# clean-flask-container
+# Localnotes in Markdown
 
 Fork this and add your app to the `app/` directory. To use this, just add your app and then use the docker-compose file. Here is a simple way of doing this.
 
