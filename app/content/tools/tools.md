@@ -1,11 +1,6 @@
 title: Tools quick reference
-date: October 2016
+date: 
 tags: none
 
-- [Markdown reference](https://daringfireball.net/projects/markdown/) by Daring Fireball.
-- [HTML color picker](http://htmlcolorcodes.com/) by Dixon & Moe.
-- [Pytest](http://doc.pytest.org/en/latest/index.html) for doing my tests.
-- [Github](https://github.com/mehemken) for storing my code.
-- [Google Cloud](https://console.cloud.google.com/home/dashboard) for running VMs.
-- [Conda environments](http://conda.pydata.org/docs/using/envs.html) for creating python environments.
-- [A tmux Primer](https://danielmiessler.com/study/tmux/#gs.cuK7Ak8) for occasional reference.
+- [Google](https://www.google.com/) for my searching needs.
+- [Github](https://github.com/) for storing my code.
