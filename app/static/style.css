@@ -19,7 +19,7 @@ div.wrap {
 div.nav {
     background-color: #FFF ;
     padding: 5px ;
-    border-bottom: 1px solid #c2c2c2 ;
+    border-bottom: 1px solid #1869ff ;
 }
 
 div.article {
@@ -33,14 +33,14 @@ div.index li {
 }
 
 div.article-meta {
-    border-left: 1px solid #000 ;
+    border-left: 1px solid #ff185a ;
     padding-left: 15px ;
     margin-left: 5px ;
 }
 
 div.meta-title {
     margin-top: 5px ;
-    border-top: 1px solid #c2c2c2 ;
+    border-top: 1px solid #1869ff ;
 }
 
 div.meta-info p {

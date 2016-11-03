@@ -1,4 +1,4 @@
-title: Tools I use
+title: Tools quick reference
 date: October 2016
 tags: none
 
@@ -8,3 +8,4 @@ tags: none
 - [Github](https://github.com/mehemken) for storing my code.
 - [Google Cloud](https://console.cloud.google.com/home/dashboard) for running VMs.
 - [Conda environments](http://conda.pydata.org/docs/using/envs.html) for creating python environments.
+- [A tmux Primer](https://danielmiessler.com/study/tmux/#gs.cuK7Ak8) for occasional reference.

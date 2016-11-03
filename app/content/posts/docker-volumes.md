@@ -14,9 +14,19 @@ Adding code to a container is fairly simple with the `ADD` command. Using the `A
 1. Make the Flask app `debug=True`
 1. Begin editing code and see changes on saves
 
-##Steps v2
+##Revision of steps
 
-1. 
+I need two sets of steps. One for people who already have an app and a second set for people who are starting from scratch.
+
+###Dockerizing existing app
+
+1. Adjust your requirements.txt
+
+###Starting from scratch
+
+1. Clone my repo
+
+##Procedures
 
 The Dockerfile should have the following line.
 

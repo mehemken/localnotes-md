@@ -3,7 +3,7 @@
 
 TITLE=$1
 SORT_DATE=$(date +"%Y%m%d")
-DISPLAY_DATE=$(date +"%A %d, %Y")
+DISPLAY_DATE=$(date +"%A %b %d, %Y")
 
 echo "title: $TITLE
 sort_date: $SORT_DATE
