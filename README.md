@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # clean-flask-container
 
 Fork this and add your app to the `app/` directory. To use this, just add your app and then use the docker-compose file. Here is a simple way of doing this.
@@ -25,6 +24,3 @@ git remote remove origin
 ```
 
 Now you can work on this without worrying that you might do an accidental `git push` and mess with the original repo. If you want to add a new origin, see the documentation for working with git remotes.
-=======
-# localnotes-md
->>>>>>> def569052eaf66f77ec198f1b80838e2bf3627d9
